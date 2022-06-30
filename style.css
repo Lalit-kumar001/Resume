@@ -94,7 +94,7 @@ body {
 /* skill section  */
 
 #skills{
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     background-color: whitesmoke;
@@ -282,9 +282,13 @@ width: 100%;
     color: white;
     letter-spacing: 2%;
     margin: 3%;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-size: 3rem;
+
 }
+
+
+
 
 
 .contact-div-parent{
@@ -323,7 +327,7 @@ margin: 2%;
     color: white;
     border: 1px solid white;
 }
-#location{
+.location{
     display: inline-block;
     height: 5%;
     width: 5%;
@@ -334,8 +338,13 @@ margin: 2%;
 }
 .color{
     color: white;
+    /* margin-left: 10px; */
+    /* ; */
 }
 
+.detail{
+    margin-right: 109px;
+}
 
 /* work experience section  */
 #experience{
